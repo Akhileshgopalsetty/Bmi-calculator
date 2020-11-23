@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  border: 2px solid #eee;
+  text-size-adjust: 16px;
+}
+
+/* This is for styling of the Form */
+
+.Bmiform {
+  width: 1024px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 50px;
+  margin: auto;
+}
+
+
+label, input{
+  display: block;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  box-shadow: black;
+
+      
+}
+
+input{
+
+  padding: 10px 3px;
+  
+}
+
+input[type='submit']{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: grey;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+
+}
+.Resultmessage{
+  border: 1px grey;
+}
